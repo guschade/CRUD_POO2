@@ -46,11 +46,11 @@ namespace trabalhoB2
             try
             {
                 connection.Open();
-                MySqlCommand cmd = new MySqlCommand("INSERT INTO Produtos (Nome, Quantidade, Preco, DataValidade) VALUES (@nome, @quantidade, @preco, @datavalidade)", connection);
+                MySqlCommand cmd = new MySqlCommand("INSERT INTO Produtos (Nome, Quantidade, Preco, DataValidade) VALUES (@nome, @quantidade, @preco, @dataValidade)", connection);
                 cmd.Parameters.AddWithValue("@nome", txtNome.Text);
                 cmd.Parameters.AddWithValue("@quantidade", int.Parse(txtQuantidade.Text));
                 cmd.Parameters.AddWithValue("@preco", decimal.Parse(txtPreco.Text));
-                cmd.Parameters.AddWithValue("@datavalidade", DateTime.Parse(txtDataValidade.Text));
+                cmd.Parameters.AddWithValue("@dataValidade", DateTime.Parse(txtDataValidade.Text));
                 cmd.ExecuteNonQuery();
                 LoadData();
             }
@@ -69,12 +69,12 @@ namespace trabalhoB2
             try
             {
                 connection.Open();
-                MySqlCommand cmd = new MySqlCommand("UPDATE Produtos SET Nome=@nome, Quantidade=@quantidade, Preco=@preco, DataValidade=@datavalidade WHERE ProdutoID=@id", connection);
+                MySqlCommand cmd = new MySqlCommand("UPDATE Produtos SET Nome=@nome, Quantidade=@quantidade, Preco=@preco, DataValidade=@dataValidade WHERE ProdutoID=@id", connection);
                 cmd.Parameters.AddWithValue("@id", int.Parse(txtID.Text));
                 cmd.Parameters.AddWithValue("@nome", txtNome.Text);
                 cmd.Parameters.AddWithValue("@quantidade", int.Parse(txtQuantidade.Text));
                 cmd.Parameters.AddWithValue("@preco", decimal.Parse(txtPreco.Text));
-                cmd.Parameters.AddWithValue("@datavalidade", DateTime.Parse(txtDataValidade.Text));
+                cmd.Parameters.AddWithValue("@dataValidade", DateTime.Parse(txtDataValidade.Text));
                 cmd.ExecuteNonQuery();
                 LoadData();
             }

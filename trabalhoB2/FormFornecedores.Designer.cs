@@ -92,44 +92,44 @@
             // 
             // btnAdicionar
             // 
-            this.btnAdicionar.Location = new System.Drawing.Point(603, 416);
+            this.btnAdicionar.Location = new System.Drawing.Point(581, 416);
             this.btnAdicionar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdicionar.Name = "btnAdicionar";
             this.btnAdicionar.Size = new System.Drawing.Size(100, 28);
-            this.btnAdicionar.TabIndex = 6;
+            this.btnAdicionar.TabIndex = 5;
             this.btnAdicionar.Text = "Adicionar";
             this.btnAdicionar.UseVisualStyleBackColor = true;
             this.btnAdicionar.Click += new System.EventHandler(this.btnAdicionar_Click);
             // 
             // btnAtualizar
             // 
-            this.btnAtualizar.Location = new System.Drawing.Point(711, 416);
+            this.btnAtualizar.Location = new System.Drawing.Point(689, 416);
             this.btnAtualizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAtualizar.Name = "btnAtualizar";
             this.btnAtualizar.Size = new System.Drawing.Size(100, 28);
-            this.btnAtualizar.TabIndex = 7;
+            this.btnAtualizar.TabIndex = 6;
             this.btnAtualizar.Text = "Atualizar";
             this.btnAtualizar.UseVisualStyleBackColor = true;
             this.btnAtualizar.Click += new System.EventHandler(this.btnAtualizar_Click);
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(819, 416);
+            this.btnExcluir.Location = new System.Drawing.Point(797, 416);
             this.btnExcluir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExcluir.Name = "btnExcluir";
             this.btnExcluir.Size = new System.Drawing.Size(100, 28);
-            this.btnExcluir.TabIndex = 8;
+            this.btnExcluir.TabIndex = 7;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
             this.btnExcluir.Click += new System.EventHandler(this.btnExcluir_Click);
             // 
             // btnPesquisar
             // 
-            this.btnPesquisar.Location = new System.Drawing.Point(929, 415);
+            this.btnPesquisar.Location = new System.Drawing.Point(905, 416);
             this.btnPesquisar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPesquisar.Name = "btnPesquisar";
             this.btnPesquisar.Size = new System.Drawing.Size(100, 28);
-            this.btnPesquisar.TabIndex = 15;
+            this.btnPesquisar.TabIndex = 8;
             this.btnPesquisar.Text = "Pesquisar";
             this.btnPesquisar.UseVisualStyleBackColor = true;
             this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
@@ -178,12 +178,13 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
-            this.lblTitulo.Location = new System.Drawing.Point(296, 18);
+            this.lblTitulo.Location = new System.Drawing.Point(309, 26);
             this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(445, 32);
             this.lblTitulo.TabIndex = 14;
             this.lblTitulo.Text = "Gerenciamento de Fornecedores";
+            this.lblTitulo.Click += new System.EventHandler(this.lblTitulo_Click);
             // 
             // FormFornecedores
             // 
@@ -217,3 +218,4 @@
         #endregion
     }
 }
+

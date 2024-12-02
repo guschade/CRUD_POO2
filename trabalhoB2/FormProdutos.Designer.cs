@@ -55,51 +55,59 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 60);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 74);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(760, 250);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(1013, 308);
             this.dataGridView1.TabIndex = 0;
             // 
             // txtID
             // 
-            this.txtID.Location = new System.Drawing.Point(12, 340);
+            this.txtID.Location = new System.Drawing.Point(16, 418);
+            this.txtID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(100, 20);
+            this.txtID.Size = new System.Drawing.Size(132, 22);
             this.txtID.TabIndex = 1;
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(118, 340);
+            this.txtNome.Location = new System.Drawing.Point(157, 418);
+            this.txtNome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(100, 20);
+            this.txtNome.Size = new System.Drawing.Size(132, 22);
             this.txtNome.TabIndex = 2;
             // 
             // txtQuantidade
             // 
-            this.txtQuantidade.Location = new System.Drawing.Point(224, 340);
+            this.txtQuantidade.Location = new System.Drawing.Point(299, 418);
+            this.txtQuantidade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtQuantidade.Name = "txtQuantidade";
-            this.txtQuantidade.Size = new System.Drawing.Size(100, 20);
+            this.txtQuantidade.Size = new System.Drawing.Size(132, 22);
             this.txtQuantidade.TabIndex = 3;
             // 
             // txtPreco
             // 
-            this.txtPreco.Location = new System.Drawing.Point(330, 340);
+            this.txtPreco.Location = new System.Drawing.Point(440, 418);
+            this.txtPreco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPreco.Name = "txtPreco";
-            this.txtPreco.Size = new System.Drawing.Size(100, 20);
+            this.txtPreco.Size = new System.Drawing.Size(132, 22);
             this.txtPreco.TabIndex = 4;
             // 
             // txtDataValidade
             // 
-            this.txtDataValidade.Location = new System.Drawing.Point(436, 340);
+            this.txtDataValidade.Location = new System.Drawing.Point(581, 418);
+            this.txtDataValidade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDataValidade.Name = "txtDataValidade";
-            this.txtDataValidade.Size = new System.Drawing.Size(100, 20);
+            this.txtDataValidade.Size = new System.Drawing.Size(132, 22);
             this.txtDataValidade.TabIndex = 5;
             // 
             // btnAdicionar
             // 
-            this.btnAdicionar.Location = new System.Drawing.Point(542, 338);
+            this.btnAdicionar.Location = new System.Drawing.Point(723, 416);
+            this.btnAdicionar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAdicionar.Name = "btnAdicionar";
-            this.btnAdicionar.Size = new System.Drawing.Size(75, 23);
+            this.btnAdicionar.Size = new System.Drawing.Size(100, 28);
             this.btnAdicionar.TabIndex = 6;
             this.btnAdicionar.Text = "Adicionar";
             this.btnAdicionar.UseVisualStyleBackColor = true;
@@ -107,9 +115,10 @@
             // 
             // btnAtualizar
             // 
-            this.btnAtualizar.Location = new System.Drawing.Point(623, 338);
+            this.btnAtualizar.Location = new System.Drawing.Point(831, 416);
+            this.btnAtualizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAtualizar.Name = "btnAtualizar";
-            this.btnAtualizar.Size = new System.Drawing.Size(75, 23);
+            this.btnAtualizar.Size = new System.Drawing.Size(100, 28);
             this.btnAtualizar.TabIndex = 7;
             this.btnAtualizar.Text = "Atualizar";
             this.btnAtualizar.UseVisualStyleBackColor = true;
@@ -117,9 +126,10 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Location = new System.Drawing.Point(704, 338);
+            this.btnExcluir.Location = new System.Drawing.Point(939, 416);
+            this.btnExcluir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExcluir.Name = "btnExcluir";
-            this.btnExcluir.Size = new System.Drawing.Size(75, 23);
+            this.btnExcluir.Size = new System.Drawing.Size(100, 28);
             this.btnExcluir.TabIndex = 8;
             this.btnExcluir.Text = "Excluir";
             this.btnExcluir.UseVisualStyleBackColor = true;
@@ -127,9 +137,10 @@
             // 
             // btnPesquisar
             // 
-            this.btnPesquisar.Location = new System.Drawing.Point(704, 315);
+            this.btnPesquisar.Location = new System.Drawing.Point(939, 388);
+            this.btnPesquisar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(75, 23);
+            this.btnPesquisar.Size = new System.Drawing.Size(100, 28);
             this.btnPesquisar.TabIndex = 15;
             this.btnPesquisar.Text = "Pesquisar";
             this.btnPesquisar.UseVisualStyleBackColor = true;
@@ -138,45 +149,50 @@
             // lblID
             // 
             this.lblID.AutoSize = true;
-            this.lblID.Location = new System.Drawing.Point(12, 320);
+            this.lblID.Location = new System.Drawing.Point(16, 394);
+            this.lblID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblID.Name = "lblID";
-            this.lblID.Size = new System.Drawing.Size(18, 13);
+            this.lblID.Size = new System.Drawing.Size(20, 16);
             this.lblID.TabIndex = 9;
             this.lblID.Text = "ID";
             // 
             // lblNome
             // 
             this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(118, 320);
+            this.lblNome.Location = new System.Drawing.Point(157, 394);
+            this.lblNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(35, 13);
+            this.lblNome.Size = new System.Drawing.Size(44, 16);
             this.lblNome.TabIndex = 10;
             this.lblNome.Text = "Nome";
             // 
             // lblQuantidade
             // 
             this.lblQuantidade.AutoSize = true;
-            this.lblQuantidade.Location = new System.Drawing.Point(224, 320);
+            this.lblQuantidade.Location = new System.Drawing.Point(299, 394);
+            this.lblQuantidade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblQuantidade.Name = "lblQuantidade";
-            this.lblQuantidade.Size = new System.Drawing.Size(62, 13);
+            this.lblQuantidade.Size = new System.Drawing.Size(77, 16);
             this.lblQuantidade.TabIndex = 11;
             this.lblQuantidade.Text = "Quantidade";
             // 
             // lblPreco
             // 
             this.lblPreco.AutoSize = true;
-            this.lblPreco.Location = new System.Drawing.Point(330, 320);
+            this.lblPreco.Location = new System.Drawing.Point(440, 394);
+            this.lblPreco.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblPreco.Name = "lblPreco";
-            this.lblPreco.Size = new System.Drawing.Size(35, 13);
+            this.lblPreco.Size = new System.Drawing.Size(43, 16);
             this.lblPreco.TabIndex = 12;
             this.lblPreco.Text = "Preço";
             // 
             // lblDataValidade
             // 
             this.lblDataValidade.AutoSize = true;
-            this.lblDataValidade.Location = new System.Drawing.Point(436, 320);
+            this.lblDataValidade.Location = new System.Drawing.Point(581, 394);
+            this.lblDataValidade.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDataValidade.Name = "lblDataValidade";
-            this.lblDataValidade.Size = new System.Drawing.Size(89, 13);
+            this.lblDataValidade.Size = new System.Drawing.Size(113, 16);
             this.lblDataValidade.TabIndex = 13;
             this.lblDataValidade.Text = "Data de Validade";
             // 
@@ -184,17 +200,18 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
-            this.lblTitulo.Location = new System.Drawing.Point(249, 19);
+            this.lblTitulo.Location = new System.Drawing.Point(329, 25);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(298, 26);
+            this.lblTitulo.Size = new System.Drawing.Size(384, 32);
             this.lblTitulo.TabIndex = 14;
             this.lblTitulo.Text = "Gerenciamento de Produtos";
             // 
             // FormProdutos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnPesquisar);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lblDataValidade);
@@ -211,6 +228,7 @@
             this.Controls.Add(this.txtNome);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormProdutos";
             this.Text = "Gerenciamento de Produtos";
             this.Load += new System.EventHandler(this.FormProdutos_Load);
