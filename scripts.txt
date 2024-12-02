@@ -1,0 +1,38 @@
+- Script para a criação do banco de dados:
+
+	CREATE DATABASE RestauranteDB;
+
+- Script para a seleção do banco de dados:
+
+	USE RestauranteDB;
+
+- Script para a criação da tabela Produtos:
+
+	CREATE TABLE Produtos (
+             ProdutoID    INT AUTO_INCREMENT PRIMARY KEY, 
+             Nome         VARCHAR(100), 
+             Quantidade   INT, 
+             Preco        DECIMAL(10, 2), 
+             DataValidade DATE
+	);
+
+- Script para a criação da tabela Fornecedores:
+
+	CREATE TABLE Fornecedores ( 
+             FornecedorID INT AUTO_INCREMENT PRIMARY KEY, 
+             Nome         VARCHAR(100), 
+             Telefone     VARCHAR(15), 
+             Email        VARCHAR(100) 
+	);
+	
+- Script para a criação da tabela Pedidos:
+
+	CREATE TABLE Pedidos ( 
+	     PedidoID     INT AUTO_INCREMENT PRIMARY KEY, 
+             ProdutoID    INT, 
+             FornecedorID INT, 
+             Quantidade   INT, 
+             DataPedido   DATE, 
+             FOREIGN KEY (ProdutoID) REFERENCES Produtos(ProdutoID), 
+             FOREIGN KEY (FornecedorID) REFERENCES Fornecedores(FornecedorID) 
+	);
