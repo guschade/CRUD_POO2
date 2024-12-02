@@ -1,51 +1,51 @@
-# Gerenciamento de Estoque
+# Trabalho - 2° bimestre
 
-Este projeto é um sistema de gerenciamento de estoque desenvolvido em C# com MySQL/MariaDB. O objetivo é gerenciar produtos, fornecedores e pedidos em um ambiente de restaurante.
+Este projeto é um sistema de gerenciamento de estoque desenvolvido em C# com MySQL/MariaDB. O objetivo é gerenciar produtos, fornecedores e pedidos em um ambiente de restaurante. Foi feito para a matéria de Programação Orientada a Objetos II, ministrada pelo prof. Wagner Perin.
 
 ## Modelo de Dados
 
 ### Tabelas
 
 #### Produtos
-- **ProdutoID**: Chave primária única para identificar cada produto.
+- **ProdutoID**: Primary key única para identificar cada produto.
 - **Nome**: Nome do produto.
 - **Quantidade**: Quantidade disponível em estoque.
 - **Preço**: Preço unitário do produto.
 - **DataValidade**: Data de validade do produto.
 
 #### Fornecedores
-- **FornecedorID**: Chave primária única para identificar cada fornecedor.
+- **FornecedorID**: Primary key única para identificar cada fornecedor.
 - **Nome**: Nome do fornecedor.
 - **Telefone**: Número de telefone do fornecedor.
 - **Email**: Endereço de email do fornecedor.
 
 #### Pedidos
-- **PedidoID**: Chave primária única para identificar cada pedido.
-- **ProdutoID**: Chave estrangeira referenciando a tabela Produtos.
-- **FornecedorID**: Chave estrangeira referenciando a tabela Fornecedores.
+- **PedidoID**: Primary key única para identificar cada pedido.
+- **ProdutoID**: Foreign Key referenciando a tabela Produtos.
+- **FornecedorID**: Foreign Key referenciando a tabela Fornecedores.
 - **Quantidade**: Quantidade do produto pedido.
 - **DataPedido**: Data do pedido.
 
 ### Relações entre as Tabelas
-A tabela `Pedidos` estabelece relacionamentos entre `Produtos` e `Fornecedores` através das chaves estrangeiras `ProdutoID` e `FornecedorID`.
+A tabela `Pedidos` estabelece relacionamentos entre `Produtos` e `Fornecedores` através das FKs `ProdutoID` e `FornecedorID`.
 
 ## Escolhas de Design
 
 ### Interface de Usuário Simples e Intuitiva
-- **Títulos e Ícones**: Utilizamos títulos claros e ícones para tornar a navegação mais intuitiva.
-- **Layouts Organizados**: Usamos `TableLayoutPanel` e `FlowLayoutPanel` para organizar os componentes na tela.
+- **Títulos e Ícones**: Coloquei títulos claros e ícones para tornar a navegação mais intuitiva.
+- **Layouts Organizados**: Usei os comandos `TableLayoutPanel` e `FlowLayoutPanel` para organizar os componentes na tela.
 
 ### Estilização e Estética
-- **Botões Estilizados**: Adicionamos cores, bordas arredondadas e ícones aos botões para melhorar a aparência visual e a usabilidade.
-- **Paleta de Cores Consistente**: Usamos uma paleta de cores consistente para todas as telas.
+- **Botões Estilizados**: Cooloquei cores, bordas arredondadas e ícones aos botões para melhorar a aparência visual e a usabilidade.
+- **Paleta de Cores Consistente**: Usamos uma paleta de cores consistente e simples para todas as telas.
 
 ### Feedback Visual
-- **ToolTips**: Adicionamos `ToolTips` aos campos de entrada e botões para fornecer feedback adicional.
-- **Mensagens de Sucesso e Erro**: Implementamos mensagens visuais para informar o usuário sobre o sucesso ou erro das operações CRUD.
+- **ToolTips**: Adicionei `ToolTips` aos campos de entrada e botões para fornecer feedback adicional.
+- **Mensagens de Sucesso e Erro**: Implementei mensagens de sucesso e de erro para informar o usuário sobre o resultado das operações CRUD.
 
 ### Experiência do Usuário (UX)
-- **Placeholders nos Campos de Entrada**: Utilizamos placeholders nos campos de entrada para guiar o usuário.
-- **Botões Desabilitados**: Desabilitamos botões quando não estão em uso para evitar ações indesejadas ou erros.
+- **Placeholders nos Campos de Entrada**: Coloquei alguns placeholders nos campos de entrada para guiar o usuário.
+- **Botões Desabilitados**: Desabilitei botões quando não estão em uso para evitar ações indesejadas ou erros.
 
 ## Funcionalidades do Sistema
 
@@ -67,7 +67,7 @@ A tabela `Pedidos` estabelece relacionamentos entre `Produtos` e `Fornecedores` 
 - **Excluir Pedido**: Permite excluir um pedido.
 - **Pesquisar Pedido**: Permite buscar pedidos pelo ID.
 
-## Script SQL para Criação do Banco de Dados e Tabelas
+## Script SQL para criar o BD e as tabelas
 
 ```sql
 -- Criação do Banco de Dados
