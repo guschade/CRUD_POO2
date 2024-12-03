@@ -9,14 +9,12 @@ namespace trabalhoB2
         private System.Windows.Forms.Button btnProdutos;
         private System.Windows.Forms.DataGridView dataGridViewProdutos;
 
-        // Adicionando os controles para as caixas de texto
         private System.Windows.Forms.TextBox txtProdutoID;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtQuantidade;
         private System.Windows.Forms.TextBox txtPreco;
         private System.Windows.Forms.TextBox txtDataValidade;
 
-        // Adicionando os rótulos para cada campo
         private System.Windows.Forms.Label lblProdutoID;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblQuantidade;
@@ -43,9 +41,7 @@ namespace trabalhoB2
             this.panelMenuLateral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProdutos)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panelMenuLateral
-            // 
+           
             this.panelMenuLateral.BackColor = System.Drawing.Color.LightGray;
             this.panelMenuLateral.Controls.Add(this.btnFornecedores);
             this.panelMenuLateral.Controls.Add(this.btnPedidos);
@@ -55,9 +51,7 @@ namespace trabalhoB2
             this.panelMenuLateral.Name = "panelMenuLateral";
             this.panelMenuLateral.Size = new System.Drawing.Size(200, 450);
             this.panelMenuLateral.TabIndex = 2;
-            // 
-            // btnFornecedores
-            // 
+            
             this.btnFornecedores.Location = new System.Drawing.Point(10, 20);
             this.btnFornecedores.Name = "btnFornecedores";
             this.btnFornecedores.Size = new System.Drawing.Size(180, 30);
@@ -65,9 +59,7 @@ namespace trabalhoB2
             this.btnFornecedores.Text = "Fornecedores";
             this.btnFornecedores.UseVisualStyleBackColor = true;
             this.btnFornecedores.Click += new System.EventHandler(this.btnFornecedores_Click);
-            // 
-            // btnPedidos
-            // 
+            
             this.btnPedidos.Location = new System.Drawing.Point(10, 60);
             this.btnPedidos.Name = "btnPedidos";
             this.btnPedidos.Size = new System.Drawing.Size(180, 30);
@@ -75,9 +67,7 @@ namespace trabalhoB2
             this.btnPedidos.Text = "Pedidos";
             this.btnPedidos.UseVisualStyleBackColor = true;
             this.btnPedidos.Click += new System.EventHandler(this.btnPedidos_Click);
-            // 
-            // btnProdutos
-            // 
+           
             this.btnProdutos.Location = new System.Drawing.Point(10, 100);
             this.btnProdutos.Name = "btnProdutos";
             this.btnProdutos.Size = new System.Drawing.Size(180, 30);
@@ -85,32 +75,24 @@ namespace trabalhoB2
             this.btnProdutos.Text = "Produtos";
             this.btnProdutos.UseVisualStyleBackColor = true;
             this.btnProdutos.Click += new System.EventHandler(this.btnProdutos_Click);
-            // 
-            // dataGridViewProdutos
-            // 
+            
             this.dataGridViewProdutos.ColumnHeadersHeight = 29;
             this.dataGridViewProdutos.Location = new System.Drawing.Point(220, 180);
             this.dataGridViewProdutos.Name = "dataGridViewProdutos";
             this.dataGridViewProdutos.RowHeadersWidth = 51;
             this.dataGridViewProdutos.Size = new System.Drawing.Size(560, 250);
             this.dataGridViewProdutos.TabIndex = 0;
-            // 
-            // txtProdutoID
-            // 
+           
             this.txtProdutoID.Location = new System.Drawing.Point(352, 24);
             this.txtProdutoID.Name = "txtProdutoID";
             this.txtProdutoID.Size = new System.Drawing.Size(150, 22);
             this.txtProdutoID.TabIndex = 3;
-            // 
-            // txtNome
-            // 
+           
             this.txtNome.Location = new System.Drawing.Point(352, 53);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(150, 22);
             this.txtNome.TabIndex = 4;
-            // 
-            // txtQuantidade
-            // 
+           
             this.txtQuantidade.Location = new System.Drawing.Point(352, 81);
             this.txtQuantidade.Name = "txtQuantidade";
             this.txtQuantidade.Size = new System.Drawing.Size(150, 22);
