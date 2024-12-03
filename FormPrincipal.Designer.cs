@@ -18,18 +18,14 @@
             this.dataGridViewProdutos = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProdutos)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panelMenuLateral
-            // 
+           
             this.panelMenuLateral.Controls.Add(this.btnFornecedores);
             this.panelMenuLateral.Controls.Add(this.btnPedidos);
             this.panelMenuLateral.Controls.Add(this.btnProdutos);
             this.panelMenuLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenuLateral.Width = 200;
             this.panelMenuLateral.BackColor = System.Drawing.Color.LightGray;
-            // 
-            // btnFornecedores
-            // 
+            
             this.btnFornecedores.Location = new System.Drawing.Point(10, 20);
             this.btnFornecedores.Name = "btnFornecedores";
             this.btnFornecedores.Size = new System.Drawing.Size(180, 30);
@@ -37,9 +33,7 @@
             this.btnFornecedores.Text = "Fornecedores";
             this.btnFornecedores.UseVisualStyleBackColor = true;
             this.btnFornecedores.Click += new System.EventHandler(this.btnFornecedores_Click);
-            // 
-            // btnPedidos
-            // 
+           
             this.btnPedidos.Location = new System.Drawing.Point(10, 60);
             this.btnPedidos.Name = "btnPedidos";
             this.btnPedidos.Size = new System.Drawing.Size(180, 30);
@@ -47,9 +41,7 @@
             this.btnPedidos.Text = "Pedidos";
             this.btnPedidos.UseVisualStyleBackColor = true;
             this.btnPedidos.Click += new System.EventHandler(this.btnPedidos_Click);
-            // 
-            // btnProdutos
-            // 
+            
             this.btnProdutos.Location = new System.Drawing.Point(10, 100);
             this.btnProdutos.Name = "btnProdutos";
             this.btnProdutos.Size = new System.Drawing.Size(180, 30);
@@ -57,18 +49,14 @@
             this.btnProdutos.Text = "Produtos";
             this.btnProdutos.UseVisualStyleBackColor = true;
             this.btnProdutos.Click += new System.EventHandler(this.btnProdutos_Click);
-            // 
-            // dataGridViewProdutos
-            // 
+           
             this.dataGridViewProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewProdutos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewProdutos.Location = new System.Drawing.Point(200, 0);
             this.dataGridViewProdutos.Name = "dataGridViewProdutos";
             this.dataGridViewProdutos.Size = new System.Drawing.Size(600, 450);
             this.dataGridViewProdutos.TabIndex = 1;
-            // 
-            // FormPrincipal
-            // 
+           
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dataGridViewProdutos);
             this.Controls.Add(this.panelMenuLateral);
